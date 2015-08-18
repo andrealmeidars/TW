@@ -2,21 +2,28 @@
 
 import java.lang.Math;
 
-public class Quadrado {
+public class Quadrado extends Figura_abs {
     private double base;
     private double altura;
+
 
     public Quadrado(double base, double altura){
         this.base = base;
         this.altura = altura;
+        super.setNomeObjeto("Quadrado");
+    }
+
+    public double calculaArea(){
+        return Math.pow(base, 2);
+    }
+
+
+    public double calculaPerimetro(){
+        return  Math.pow(base, 4);
 
     }
 
-    public void  calculaArea_perimetro(){
-        Imprimir imprime = new Imprimir();
-        imprime.imprimeNaTela( "Area do quadrado é : ",  Math.pow(base, 2));
-        imprime.imprimeNaTela( "Perimetro do quadrado é : ",  Math.pow(base, 4));
-    }
+
 
 
 

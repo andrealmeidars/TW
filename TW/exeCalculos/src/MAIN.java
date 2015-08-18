@@ -3,11 +3,14 @@ public class MAIN {
 
     public static void main(String[] args) {
 
-        Quadrado quadrado = new Quadrado(2,2);
-        Circulo circulo = new Circulo(5);
 
-        quadrado.calculaArea_perimetro();
-        circulo.calculaArea_perimetro();
+        FormaGeometrica forma = new FormaGeometrica();
+
+        forma.calculaFormas(new Quadrado(2,4));
+        forma.calculaFormas(new Retangulo(2,6));
+        forma.calculaFormas(new Losango(4,3));
+
+
 
 
 

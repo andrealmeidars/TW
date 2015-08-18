@@ -1,7 +1,7 @@
-/**
- * Created by andrealmeida on 16/08/15.
- */
-public class Triangulo {
+
+import java.lang.Math;
+
+public class Triangulo extends Figura_abs {
     private double base;
     private double alturaDireita;
     private double alturaEsquerda;
@@ -10,18 +10,18 @@ public class Triangulo {
             this.base = base;
             this.alturaDireita = alturaDireita;
             this.alturaEsquerda = alturaEsquerda;
+            super.setNomeObjeto("Triangulo");
 
         }
 
-        public void  calculaArea_perimetro(){
-            Imprimir imprime = new Imprimir();
-
+        public double  calculaArea(){
             double perimetro = base + alturaDireita + alturaEsquerda / 2;
+            return Math.sqrt(perimetro * (perimetro - base) * (perimetro - alturaDireita) * (perimetro - alturaEsquerda));
+        }
 
-            imprime.imprimeNaTela( "Area do Triangulo é : ",  Math.sqrt(perimetro*(perimetro-base)*(perimetro-alturaDireita)*(perimetro-alturaEsquerda)) );
-            imprime.imprimeNaTela( "Perimetro do Triangulo é : ", perimetro * 2  );
-    }
-
+        public double calculaPerimetro(){
+            return base + alturaDireita + alturaEsquerda;
+        }
 
 
 }

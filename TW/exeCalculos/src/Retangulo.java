@@ -1,22 +1,25 @@
-/**
- * Created by andrealmeida on 16/08/15.
- */
-public class Retangulo {
+
+public class Retangulo extends Figura_abs {
     private double base;
-    private  double altura;
+    private double altura;
 
 
     public Retangulo(double base, double altura){
          this.base = base;
          this.altura = altura;
-
+         super.setNomeObjeto("Retangulo");
     }
 
-    public void  calculaArea_perimetro(){
-        Imprimir imprime = new Imprimir();
-        imprime.imprimeNaTela( "Area do Retangulo é : ",  base * altura );
-        imprime.imprimeNaTela( "Perimetro do Retangulo é : ",  (2 * base) + (2 * altura)  );
+    public double  calculaArea(){
+        return base * altura;
     }
+
+    public double calculaPerimetro(){
+        return (2 * base) + (2 * altura);
+    }
+
+
+
 
 
 
