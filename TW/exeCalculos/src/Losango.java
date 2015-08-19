@@ -1,5 +1,5 @@
 
-public class Losango extends Figura_abs {
+public class Losango extends FiguraAbstrata {
     private double medidaDiagonalMenor;
     private double medidaDiagonalMaior;
 

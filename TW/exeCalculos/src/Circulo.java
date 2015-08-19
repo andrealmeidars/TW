@@ -1,7 +1,7 @@
 
 import java.lang.Math;
 
-public class Circulo extends Figura_abs {
+public class Circulo extends FiguraAbstrata {
     private double raio;
 
     public Circulo(double raio){

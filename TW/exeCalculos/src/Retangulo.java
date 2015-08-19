@@ -1,5 +1,5 @@
 
-public class Retangulo extends Figura_abs {
+public class Retangulo extends FiguraAbstrata {
     private double base;
     private double altura;
 
@@ -10,7 +10,7 @@ public class Retangulo extends Figura_abs {
          super.setNomeObjeto("Retangulo");
     }
 
-    public double  calculaArea(){
+    public double calculaArea(){
         return base * altura;
     }
 

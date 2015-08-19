@@ -1,6 +1,6 @@
 import java.lang.Math;
 
-public class Oval extends Figura_abs {
+public class Oval extends FiguraAbstrata {
     private double raio1;
     private  double raio2;
 

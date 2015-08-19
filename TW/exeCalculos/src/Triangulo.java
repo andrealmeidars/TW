@@ -1,7 +1,7 @@
 
 import java.lang.Math;
 
-public class Triangulo extends Figura_abs {
+public class Triangulo extends FiguraAbstrata {
     private double base;
     private double alturaDireita;
     private double alturaEsquerda;

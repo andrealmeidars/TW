@@ -1,5 +1,5 @@
 
-abstract class Figura_abs {
+abstract class FiguraAbstrata {
     protected String nomeObjeto;
 
     abstract double calculaArea();

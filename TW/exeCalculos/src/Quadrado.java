@@ -2,7 +2,7 @@
 
 import java.lang.Math;
 
-public class Quadrado extends Figura_abs {
+public class Quadrado extends FiguraAbstrata {
     private double base;
     private double altura;
 
