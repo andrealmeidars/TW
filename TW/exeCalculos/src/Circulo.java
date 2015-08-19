@@ -9,10 +9,12 @@ public class Circulo extends FiguraAbstrata {
         super.setNomeObjeto("Circulo");
     }
 
+    @Override
     public double  calculaArea(){
         return Math.PI * raio * raio;
     }
 
+    @Override
     public double calculaPerimetro(){
         return   2 * Math.PI * raio;
     }

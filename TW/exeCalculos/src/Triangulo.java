@@ -14,14 +14,16 @@ public class Triangulo extends FiguraAbstrata {
 
         }
 
-        public double  calculaArea(){
-            double perimetro = base + alturaDireita + alturaEsquerda / 2;
-            return Math.sqrt(perimetro * (perimetro - base) * (perimetro - alturaDireita) * (perimetro - alturaEsquerda));
-        }
+    @Override
+    public double  calculaArea(){
+        double perimetro = base + alturaDireita + alturaEsquerda / 2;
+        return Math.sqrt(perimetro * (perimetro - base) * (perimetro - alturaDireita) * (perimetro - alturaEsquerda));
+    }
 
-        public double calculaPerimetro(){
-            return base + alturaDireita + alturaEsquerda;
-        }
+    @Override
+    public double calculaPerimetro(){
+        return base + alturaDireita + alturaEsquerda;
+     }
 
 
 }

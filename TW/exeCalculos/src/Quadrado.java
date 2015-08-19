@@ -13,11 +13,13 @@ public class Quadrado extends FiguraAbstrata {
         super.setNomeObjeto("Quadrado");
     }
 
+    @Override
     public double calculaArea(){
         return Math.pow(base, 2);
     }
 
 
+    @Override
     public double calculaPerimetro(){
         return  Math.pow(base, 4);
 

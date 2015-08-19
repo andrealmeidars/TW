@@ -10,10 +10,12 @@ public class Retangulo extends FiguraAbstrata {
          super.setNomeObjeto("Retangulo");
     }
 
+    @Override
     public double calculaArea(){
         return base * altura;
     }
 
+    @Override
     public double calculaPerimetro(){
         return (2 * base) + (2 * altura);
     }
