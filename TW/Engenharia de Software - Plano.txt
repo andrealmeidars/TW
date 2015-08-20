@@ -1,0 +1,34 @@
+ROGRAMA: 
+Introdução à Engenharia de Software
+
+ O que é Engenharia de Software
+
+ Crise de Software
+
+ Princípios de Engenharia de Software
+
+ Aplicações da Engenharia de Software
+
+ Modelos do Ciclo de Vida
+
+Conceitos de Engenharia de Software
+
+  Requisitos de Software
+
+  Design de Software
+
+  Construção de Sotfware
+
+  Testes de Software
+
+  Gerência de Engenharia de Software
+
+  Manutenção de Software
+
+  Gerência de Configuração de Software
+
+  Qualidade de Software
+
+  Normas e Padrões ISO e IEEE
+
+  Tendências em Engenharia de Software

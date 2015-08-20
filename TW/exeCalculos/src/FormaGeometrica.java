@@ -2,7 +2,7 @@
 public class FormaGeometrica {
     private Imprimir imprime;
 
-    public FormaGeometrica(Imprimir imprime) {
+    public FormaGeometrica(Imprimir imprime)  {
         this.imprime = imprime;
     }
 
