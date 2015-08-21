@@ -1,5 +1,6 @@
+package main;
 
-public class MAIN {
+public class App {
 
     public static void main(String[] args) {
         Imprimir imprime = new Imprimir();

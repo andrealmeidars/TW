@@ -1,16 +1,17 @@
-
+package main;
 
 import java.lang.Math;
 
-public class Quadrado extends FiguraAbstrata {
+public class Quadrado implements objetoGeometricoInterface {
     private double base;
     private double altura;
+    private String nomeObjeto;
 
 
     public Quadrado(double base, double altura){
         this.base = base;
         this.altura = altura;
-        super.setNomeObjeto("Quadrado");
+        this.nomeObjeto = "Quadrado";
     }
 
     @Override
@@ -21,12 +22,16 @@ public class Quadrado extends FiguraAbstrata {
 
     @Override
     public double calculaPerimetro(){
+
+        if (base < 0 || altura < 0){
+            throw  new IllegalArgumentException();
+        }
         return  Math.pow(base, 4);
 
     }
 
-
-
-
-
+    @Override
+    public String retornaNomeObjeto() {
+        return nomeObjeto;
+    }
 }

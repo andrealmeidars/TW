@@ -1,3 +1,4 @@
+package main;
 
 public class FormaGeometrica {
     private Imprimir imprime;
@@ -6,7 +7,7 @@ public class FormaGeometrica {
         this.imprime = imprime;
     }
 
-    public void calculaFormas(FiguraAbstrata formaGeometrica){
+    public void calculaFormas(objetoGeometricoInterface formaGeometrica){
 
         imprime.imprimeNaTela(  "Área do " + formaGeometrica.getNomeObjeto() +  " = "  , formaGeometrica.calculaArea());
         imprime.imprimeNaTela(  "Perimetro do " + formaGeometrica.getNomeObjeto() +  " = "  , formaGeometrica.calculaPerimetro());

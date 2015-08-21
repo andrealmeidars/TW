@@ -1,13 +1,15 @@
+package main;
 
-public class Retangulo extends FiguraAbstrata {
+public class Retangulo implements objetoGeometricoInterface {
     private double base;
     private double altura;
+    private String nomeObjeto;
 
 
     public Retangulo(double base, double altura){
          this.base = base;
          this.altura = altura;
-         super.setNomeObjeto("Retangulo");
+         this.nomeObjeto = "Retangulo";
     }
 
     @Override
@@ -20,11 +22,10 @@ public class Retangulo extends FiguraAbstrata {
         return (2 * base) + (2 * altura);
     }
 
-
-
-
-
-
+    @Override
+    public String retornaNomeObjeto() {
+        return nomeObjeto;
+    }
 }
 
 
