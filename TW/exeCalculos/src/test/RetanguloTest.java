@@ -1,6 +1,25 @@
 package test;
 
 
+import main.Retangulo;
+import org.junit.Test;
+
+import static org.hamcrest.CoreMatchers.is;
+import static org.hamcrest.CoreMatchers.not;
+import static org.junit.Assert.assertThat;
+
 public class RetanguloTest {
-}
-    //@Test
+
+
+
+    @Test(expected = NullPointerException.class)
+     public void retornaErroSeNomeEstiverNulo() throws Exception {
+        Retangulo retangulo = new Retangulo(2,2);
+
+        assertThat(retangulo.retornaNomeObjeto(), is("INVALIDO"));
+        assertThat(null, is(not(null)));
+    }
+
+
+
+    }

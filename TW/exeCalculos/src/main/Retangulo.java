@@ -9,7 +9,7 @@ public class Retangulo implements objetoGeometrico {
     public Retangulo(double base, double altura){
          this.base = base;
          this.altura = altura;
-         this.nomeObjeto = "Retangulo";
+         //this.nomeObjeto = "Retangulo";
     }
 
     @Override
@@ -24,6 +24,9 @@ public class Retangulo implements objetoGeometrico {
 
     @Override
     public String retornaNomeObjeto() {
+        if (nomeObjeto == null){
+            return "INVALIDO";
+        }
         return nomeObjeto;
     }
 }
