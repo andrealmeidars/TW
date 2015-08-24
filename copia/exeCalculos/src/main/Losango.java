@@ -1,6 +1,6 @@
 package main;
 
-public class Losango implements objetoGeometrico {
+public class Losango implements objetoGeometricoInterface {
     private double medidaDiagonalMenor;
     private double medidaDiagonalMaior;
     private String nomeObjeto;
@@ -10,7 +10,6 @@ public class Losango implements objetoGeometrico {
     public Losango(double medidaDiagonalMenor, double medidaDiagonalMaior){
         this.medidaDiagonalMenor = medidaDiagonalMenor;
         this.medidaDiagonalMaior = medidaDiagonalMaior;
-        this.nomeObjeto = "Losango";
 
     }
 

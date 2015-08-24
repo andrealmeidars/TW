@@ -1,6 +1,6 @@
 package main;
 
-interface objetoGeometrico{
+interface objetoGeometricoInterface {
     //protected String nomeObjeto;
 
      double calculaArea();

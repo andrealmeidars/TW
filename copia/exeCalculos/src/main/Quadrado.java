@@ -2,7 +2,7 @@ package main;
 
 import java.lang.Math;
 
-public class Quadrado implements objetoGeometrico {
+public class Quadrado implements objetoGeometricoInterface {
     private double base;
     private double altura;
     private String nomeObjeto;

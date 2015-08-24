@@ -2,7 +2,7 @@ package main;
 
 import java.lang.Math;
 
-public class Triangulo implements objetoGeometrico {
+public class Triangulo implements objetoGeometricoInterface {
     private double base;
     private double alturaDireita;
     private double alturaEsquerda;
@@ -13,6 +13,7 @@ public class Triangulo implements objetoGeometrico {
             this.alturaDireita = alturaDireita;
             this.alturaEsquerda = alturaEsquerda;
             this.nomeObjeto = "Triangulo";
+
         }
 
     @Override

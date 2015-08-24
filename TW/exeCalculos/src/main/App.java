@@ -5,11 +5,13 @@ public class App {
     public static void main(String[] args) {
         Imprimir imprime = new Imprimir();
 
-        FormaGeometrica forma = new FormaGeometrica(imprime);
+        calculaFormasGeometricas calculaForma = new calculaFormasGeometricas(imprime);
 
-        forma.calculaFormas(new Quadrado(2,4));
-        forma.calculaFormas(new Retangulo(2,6));
-        forma.calculaFormas(new Losango(4,3));
+
+        //calculaForma.calculaFormas(new Circulo(null));
+        calculaForma.calculaFormas(new Quadrado(2, 4));
+        calculaForma.calculaFormas(new Retangulo(2, 6));
+        calculaForma.calculaFormas(new Losango(4, 3));
 
     }
 }

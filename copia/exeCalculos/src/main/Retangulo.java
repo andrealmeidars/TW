@@ -1,6 +1,6 @@
 package main;
 
-public class Retangulo implements objetoGeometrico {
+public class Retangulo implements objetoGeometricoInterface {
     private double base;
     private double altura;
     private String nomeObjeto;

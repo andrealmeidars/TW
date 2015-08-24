@@ -1,21 +1,27 @@
 package test;
+//import static org.junit.Assert.*;
 
 
 import main.Circulo;
 import org.junit.Test;
 
-import static org.hamcrest.core.Is.is;
-import static org.junit.Assert.assertThat;
+import static org.hamcrest.CoreMatchers.is;
+import static org.hamcrest.CoreMatchers.not;
+import static org.hamcrest.MatcherAssert.assertThat;
 
 public class CirculoTest {
 
 
-    @Test
+    @Test(expected = NullPointerException.class)
     public void deveRetornarZeroSeRaioForNulo() throws Exception {
+
         Circulo circulo = new Circulo(null);
+
+
         assertThat(circulo.calculaArea(), is(0.0));
-        assertThat(is(not(null)));
+        assertThat(null,is(not(null)));
     }
 
 
 }
+

@@ -2,7 +2,7 @@ package main;
 
 import java.lang.Math;
 
-public class Oval implements objetoGeometrico {
+public class Oval implements objetoGeometricoInterface {
     private double raio1;
     private  double raio2;
     private String nomeObjeto;

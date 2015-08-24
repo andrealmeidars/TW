@@ -1,6 +1,6 @@
 package main;
 
-public class Circulo implements objetoGeometrico {
+public class Circulo implements objetoGeometricoInterface {
 
     private Double raio;
     private String nomeObjeto;
@@ -13,9 +13,8 @@ public class Circulo implements objetoGeometrico {
     }
 
     @Override
-    public double calculaArea(){
+    public double  calculaArea(){
         if (raio == null){
-            //System.out.println("OBJETO NULO");
             return  0;
         }
         return Math.PI * raio * raio;
