@@ -1,6 +1,6 @@
 package main;
 
-public class Losango implements objetoGeometrico {
+public class Losango implements ObjetoGeometrico {
     private double medidaDiagonalMenor;
     private double medidaDiagonalMaior;
     private String nomeObjeto;

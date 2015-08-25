@@ -1,14 +1,16 @@
 package main;
 
+import main.tinyTypes.Raio;
+
 import java.lang.Math;
 
-public class Oval implements objetoGeometrico {
-    private double raio1;
-    private  double raio2;
+public class Oval implements ObjetoGeometrico {
+    private Raio raio1;
+    private  Raio raio2;
     private String nomeObjeto;
 
 
-    public Oval(double raio1, double raio2){
+    public Oval(Raio raio1, Raio raio2){
         this.raio1 = raio1;
         this.raio2 = raio2;
         this.nomeObjeto = "oval";
@@ -17,7 +19,7 @@ public class Oval implements objetoGeometrico {
 
     @Override
     public double calculaArea() {
-        return Math.PI * (raio1 + raio2) ;
+        return Math.PI * (raio1.getValue() + raio2.getValue()) ;
     }
 
     @Override

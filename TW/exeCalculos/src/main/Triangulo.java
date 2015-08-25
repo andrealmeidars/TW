@@ -1,14 +1,18 @@
 package main;
 
+import main.tinyTypes.AlturaDireita;
+import main.tinyTypes.AlturaEsquerda;
+import main.tinyTypes.Base;
+
 import java.lang.Math;
 
-public class Triangulo implements objetoGeometrico {
-    private double base;
-    private double alturaDireita;
-    private double alturaEsquerda;
+public class Triangulo implements ObjetoGeometrico {
+    private Base base;
+    private AlturaDireita alturaDireita;
+    private AlturaEsquerda alturaEsquerda;
     private String nomeObjeto;
 
-        public Triangulo(double base, double alturaDireita, double alturaEsquerda){
+        public Triangulo(Base base, AlturaDireita alturaDireita, AlturaEsquerda alturaEsquerda){
             this.base = base;
             this.alturaDireita = alturaDireita;
             this.alturaEsquerda = alturaEsquerda;
@@ -17,13 +21,13 @@ public class Triangulo implements objetoGeometrico {
 
     @Override
     public double  calculaArea(){
-        double perimetro = base + alturaDireita + alturaEsquerda / 2;
-        return Math.sqrt(perimetro * (perimetro - base) * (perimetro - alturaDireita) * (perimetro - alturaEsquerda));
+        double perimetro = base.getValue() + alturaDireita.getValue() + alturaEsquerda.getValue() / 2;
+        return Math.sqrt(perimetro * (perimetro - base.getValue()) * (perimetro - alturaDireita.getValue()) * (perimetro - alturaEsquerda.getValue()));
     }
 
     @Override
     public double calculaPerimetro(){
-        return base + alturaDireita + alturaEsquerda;
+        return base.getValue() + alturaDireita.getValue() + alturaEsquerda.getValue();
      }
 
     @Override

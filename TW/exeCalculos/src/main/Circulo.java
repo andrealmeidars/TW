@@ -1,29 +1,29 @@
 package main;
 
-public class Circulo implements objetoGeometrico {
+import main.tinyTypes.Raio;
 
-    private Double raio;
+public class Circulo implements ObjetoGeometrico {
+
+    private final Raio raio;
     private String nomeObjeto;
 
-    public Circulo(Double raio){
+    public Circulo(Raio raio){
         this.raio = raio;
         this.nomeObjeto = "Circulo";
-
 
     }
 
     @Override
     public double calculaArea(){
         if (raio == null){
-            //System.out.println("OBJETO NULO");
-            return  0;
+            throw new NullPointerException();
         }
-        return Math.PI * raio * raio;
+        return Math.PI * raio.getValue() * raio.getValue();
     }
 
     @Override
     public double calculaPerimetro(){
-        return   2 * Math.PI * raio;
+        return   2 * Math.PI * raio.getValue();
     }
 
 

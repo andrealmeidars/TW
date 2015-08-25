@@ -3,25 +3,32 @@ package test;
 
 
 import main.Circulo;
+import org.junit.After;
 import org.junit.Test;
-
-import static org.hamcrest.CoreMatchers.is;
-import static org.hamcrest.CoreMatchers.not;
-import static org.hamcrest.MatcherAssert.assertThat;
 
 public class CirculoTest {
 
+
+
+    //TODO: receber valor nulo, números negativos
 
     @Test(expected = NullPointerException.class)
     public void deveRetornarZeroSeRaioForNulo() throws Exception {
 
         Circulo circulo = new Circulo(null);
-
-
-        assertThat(circulo.calculaArea(), is(0.0));
-        assertThat(null,is(not(null)));
+        circulo.calculaArea();
     }
 
+    @Test
+    public void testName() throws Exception {
 
+
+    }
+
+    @After
+    public void tearDown() throws Exception {
+
+
+    }
 }
 
