@@ -14,8 +14,8 @@ public class App {
 
         calculaForma.calculaFormas(new Circulo(new Raio(2.2)));
         calculaForma.calculaFormas(new Quadrado(new Base(2.2), new Altura(4.0)));
-        //calculaForma.calculaFormas(new Retangulo(0, 0));
-        //calculaForma.calculaFormas(new Losango(4, 3));
+        calculaForma.calculaFormas(new Retangulo(new Base(2), new Altura(4)));
+        calculaForma.calculaFormas(new Losango(4, 3));
         calculaForma.calculaFormas(new Oval(0,0));
 
 

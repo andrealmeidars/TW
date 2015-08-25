@@ -23,14 +23,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Raio.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Raio.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/tinyTypes/Raio.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.073891625">
+            <state vertical-scroll-proportion="0.0">
               <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
               <folding>
                 <element signature="e#195#196#0" expanded="true" />
                 <element signature="e#223#224#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="17" column="53" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Losango.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Losango.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MedidaDiagonalMaior.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/tinyTypes/MedidaDiagonalMaior.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.40640393">
+              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+              <folding>
+                <element signature="e#161#162#0" expanded="true" />
+                <element signature="e#195#196#0" expanded="true" />
+                <element signature="e#269#270#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -42,8 +78,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit4 Test Class" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -83,7 +119,6 @@
         <option value="$PROJECT_DIR$/src/main/calculaFormasGeometricas.java" />
         <option value="$PROJECT_DIR$/src/main/Circulo.java" />
         <option value="$PROJECT_DIR$/src/test/CirculoTest.java" />
-        <option value="$PROJECT_DIR$/src/main/App.java" />
         <option value="$PROJECT_DIR$/src/main/Quadrado.java" />
         <option value="$PROJECT_DIR$/src/test/QuadradoTest.java" />
         <option value="$PROJECT_DIR$/src/main/Oval.java" />
@@ -96,6 +131,8 @@
         <option value="$PROJECT_DIR$/src/main/tinyTypes/Base.java" />
         <option value="$PROJECT_DIR$/src/main/tinyTypes/MedidaDiagonalMenor.java" />
         <option value="$PROJECT_DIR$/src/main/tinyTypes/Raio.java" />
+        <option value="$PROJECT_DIR$/src/main/App.java" />
+        <option value="$PROJECT_DIR$/src/main/tinyTypes/MedidaDiagonalMaior.java" />
       </list>
     </option>
   </component>
@@ -684,12 +721,12 @@
       <workItem from="1439744210839" duration="22106000" />
       <workItem from="1439907858530" duration="1506000" />
       <workItem from="1439914302670" duration="5000" />
-      <workItem from="1440085076480" duration="25094000" />
+      <workItem from="1440085076480" duration="25464000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50839000" />
+    <option name="totallyTimeSpent" value="51209000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="7" y="23" width="1280" height="724" extended-state="0" />
@@ -862,16 +899,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="76" selection-start-line="15" selection-start-column="76" selection-end-line="15" selection-end-column="76" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/QuadradoTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.63054186">
@@ -924,22 +951,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Retangulo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51724136">
-          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#410#411#0" expanded="true" />
-            <element signature="e#468#469#0" expanded="true" />
-            <element signature="e#521#522#0" expanded="true" />
-            <element signature="e#591#592#0" expanded="true" />
-            <element signature="e#646#647#0" expanded="true" />
-            <element signature="e#679#680#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Circulo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9236453">
@@ -948,14 +959,6 @@
             <element signature="e#506#507#0" expanded="true" />
             <element signature="e#560#561#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Losango.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1036,11 +1039,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/tinyTypes/Raio.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.073891625">
+        <state vertical-scroll-proportion="0.0">
           <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
           <folding>
             <element signature="e#195#196#0" expanded="true" />
             <element signature="e#223#224#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Retangulo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="53" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Losango.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/tinyTypes/MedidaDiagonalMaior.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40640393">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <folding>
+            <element signature="e#161#162#0" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
           </folding>
         </state>
       </provider>
