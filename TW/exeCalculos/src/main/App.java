@@ -10,8 +10,9 @@ public class App {
 
         //calculaForma.calculaFormas(new Circulo(null));
         //calculaForma.calculaFormas(new Quadrado(2, 4));
-        calculaForma.calculaFormas(new Retangulo(0, 0));
+        //calculaForma.calculaFormas(new Retangulo(0, 0));
         //calculaForma.calculaFormas(new Losango(4, 3));
+        calculaForma.calculaFormas(new Oval(0,0));
 
     }
 }

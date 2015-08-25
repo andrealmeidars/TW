@@ -22,11 +22,15 @@ public class Oval implements objetoGeometrico {
 
     @Override
     public double calculaPerimetro() {
-        return 4 * Math.PI ;
+        //return 4 * Math.PI ;
+        return 0.0;
+
+
     }
 
     @Override
     public String retornaNomeObjeto() {
         return nomeObjeto;
+
     }
 }
