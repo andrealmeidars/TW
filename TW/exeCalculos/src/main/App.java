@@ -1,8 +1,6 @@
 package main;
 
-import main.tinyTypes.Altura;
-import main.tinyTypes.Base;
-import main.tinyTypes.Raio;
+import main.tinyTypes.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,13 +19,16 @@ public class App {
        // calculaForma.calculaFormas(new Losango(new MedidaDiagonalMenor(-2.2), new MedidaDiagonalMaior(-2.2)));
         //calculaForma.calculaFormas(new Oval(new Raio(2),new Raio(2)));
 
-        Circulo circulo = new Circulo(new Raio(2));
-        Quadrado quadrado = new Quadrado(new Base(2), new Altura(4));
+        //Circulo circulo = new Circulo(new Raio(2.2));
+        //Quadrado quadrado = new Quadrado(new Base(2.2), new Altura(4.0));
+        //listaFormas.add(quadrado);
 
         List<ObjetoGeometrico> listaFormas = new ArrayList<>();
-        listaFormas.add(circulo);
-        listaFormas.add(quadrado);
-
+        listaFormas.add(new Circulo(new Raio(2.2)));
+        listaFormas.add(new Quadrado(new Base(2.2), new Altura(4.0)));
+        listaFormas.add(new Retangulo(new Base(2), new Altura(4)));
+        listaFormas.add(new Losango(new MedidaDiagonalMenor(2.2), new MedidaDiagonalMaior(2.2)));
+        listaFormas.add(new Oval(new Raio(2), new Raio(2)));
 
         calculaForma.imprimeLista(listaFormas);
 
