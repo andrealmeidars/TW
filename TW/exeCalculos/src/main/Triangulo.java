@@ -34,4 +34,8 @@ public class Triangulo implements ObjetoGeometrico {
     public String retornaNomeObjeto() {
         return nomeObjeto;
     }
+
+    public double retornaValorBase(){
+        return base.getValue();
+    }
 }
