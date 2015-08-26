@@ -1,5 +1,9 @@
 package main;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.List;
+
 public class CalculaFormasGeometricas {
     private Imprimir imprime;
 
@@ -12,6 +16,18 @@ public class CalculaFormasGeometricas {
         imprime.imprimeNaTela(  "Área do " + formaGeometrica.retornaNomeObjeto() +  " = "  , formaGeometrica.calculaArea());
         imprime.imprimeNaTela(  "Perimetro do " + formaGeometrica.retornaNomeObjeto() +  " = "  , formaGeometrica.calculaPerimetro());
         System.out.println("============================");
+
+    }
+
+    public void imprimeLista(List lista){
+        for (ObjetoGeometrico forma : lista) {
+            imprime.imprimeNaTela(  "Área do " + forma.retornaNomeObjeto() +  " = "  , forma.calculaArea());
+            imprime.imprimeNaTela(  "Perimetro do " + forma.retornaNomeObjeto() +  " = "  , forma.calculaPerimetro());
+            System.out.println("============================");
+
+        }
+
+
 
     }
 
