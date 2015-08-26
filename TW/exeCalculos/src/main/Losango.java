@@ -1,34 +1,40 @@
 package main;
 
+import main.tinyTypes.MedidaDiagonalMaior;
+import main.tinyTypes.MedidaDiagonalMenor;
+
 public class Losango implements ObjetoGeometrico {
-    private double medidaDiagonalMenor;
-    private double medidaDiagonalMaior;
+    private MedidaDiagonalMenor medidaDiagonalMenor;
+    private MedidaDiagonalMaior medidaDiagonalMaior;
     private String nomeObjeto;
 
 
 
-    public Losango(double medidaDiagonalMenor, double medidaDiagonalMaior){
+    public Losango(MedidaDiagonalMenor medidaDiagonalMenor, MedidaDiagonalMaior medidaDiagonalMaior){
         this.medidaDiagonalMenor = medidaDiagonalMenor;
         this.medidaDiagonalMaior = medidaDiagonalMaior;
-        this.nomeObjeto = "Losango";
+        //this.nomeObjeto = "Losango";
 
     }
 
 
     @Override
     public String retornaNomeObjeto() {
+        if (nomeObjeto == null){
+             throw  new IllegalArgumentException();
+        }
         return nomeObjeto;
 
     }
 
     @Override
     public double calculaArea() {
-        return (medidaDiagonalMaior * medidaDiagonalMenor) / 2;
+        return (medidaDiagonalMaior.getValue() * medidaDiagonalMenor.getValue()) / 2;
     }
 
     @Override
     public double calculaPerimetro() {
-        return medidaDiagonalMaior + medidaDiagonalMenor;
+        return medidaDiagonalMaior.getValue() + medidaDiagonalMenor.getValue();
     }
 
 
