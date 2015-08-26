@@ -13,7 +13,7 @@ public class Losango implements ObjetoGeometrico {
     public Losango(MedidaDiagonalMenor medidaDiagonalMenor, MedidaDiagonalMaior medidaDiagonalMaior){
         this.medidaDiagonalMenor = medidaDiagonalMenor;
         this.medidaDiagonalMaior = medidaDiagonalMaior;
-        //this.nomeObjeto = "Losango";
+        this.nomeObjeto = "Losango";
 
     }
 
