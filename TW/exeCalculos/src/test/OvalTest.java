@@ -9,12 +9,12 @@ import static org.junit.Assert.assertThat;
 
 public class OvalTest {
 
-    @Test (expected = NullPointerException.class)
+    @Test
     public void mostraSeRetornoNaoForNulo() throws Exception {
         Oval oval = new Oval(new Raio(2), new Raio(2));
 
         assertThat(oval.retornaNomeObjeto(), not(null));
-        //assertThat(oval.calculaPerimetro(), is(0.0));
+        
 
 
 
